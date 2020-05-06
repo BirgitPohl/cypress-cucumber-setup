@@ -1,0 +1,69 @@
+{
+  "env": {
+    "es6": true,
+    "node": true,
+    "shared-node-browser": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "eslint-config-prettier"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "eslint-plugin-prettier"
+  ],
+  "rules": {
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "quotes": [
+      "error",
+      "double"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "no-console": "off",
+    "space-before-function-paren": [
+      "error",
+      {
+        "anonymous": "always",
+        "named": "never",
+        "asyncArrow": "always"
+      }
+    ],
+    "space-unary-ops": [
+      2,
+      {
+        "words": true,
+        "nonwords": false
+      }
+    ],
+    "no-multi-spaces": "error",
+    "comma-spacing": [
+      "error",
+      {
+        "before": false,
+        "after": true
+      }
+    ],
+    "require-await": "error",
+    "no-return-await": "error",
+    "no-useless-catch": "error",
+    "no-prototype-builtins": "off",
+    "require-atomic-updates": "off",
+    "no-shadow": "error"
+  },
+    "globals": {
+        "cy": true,
+        "Cypress": true
+    }
+}
