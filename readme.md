@@ -3,9 +3,9 @@
 The step definitions are available for every feature.
 Every step definition can be found under cypress/support/step_definitions.
 
-## Gitlab CI/CD
+## Gitlab CI
 
-This test contains a working Gitlab CI/CD configuration
+This test contains a working Gitlab CI configuration
 
 ## Prerequisites
 
