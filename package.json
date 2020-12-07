@@ -18,11 +18,11 @@
   "author": "Birgit Pohl",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^4.4.1",
-    "cypress-cucumber-preprocessor": "^2.0.1",
-    "eslint": "^6.7.2",
-    "eslint-config-prettier": "^6.7.0",
-    "eslint-plugin-prettier": "^3.1.1"
+    "cypress": "^4.12.1",
+    "cypress-cucumber-preprocessor": "^2.5.5",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.2.0"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": false
